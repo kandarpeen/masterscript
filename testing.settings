@@ -1,0 +1,33 @@
+input:
+  type: image
+  attributes:
+    [scene]
+  bbox-class:
+    []
+classes:
+          {
+            negative: 0,
+            bar: 1, 
+            classroom: 2,
+            dining: 3,
+            driveway: 4,
+            elevator: 5,
+            garage: 6,
+            gym: 7,
+            hall: 8,
+            kitchen: 9,
+            lounge: 10,
+            office: 11,
+            parking-indoor: 12,
+            parking-outdoor: 13,
+            patio: 14,
+            reception: 15,
+            stair: 16,
+            store: 17, 
+            street: 18,
+            warehouse: 19
+          }
+
+output:
+  type: classifier
+  crops: False
